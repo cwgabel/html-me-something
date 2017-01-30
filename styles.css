@@ -33,10 +33,10 @@ body {
     /*min-height: 100%;*/
 }
 
-h1 {
+/*h1 {
     font-size: 24px;
     font-size: 1.6rem;
-}
+}*/
 
 /*ol {
     -webkit-margin-before: 0;
@@ -191,9 +191,6 @@ h1 {
 
 .navsecond a {
     opacity: .8;
-    -webkit-transition: opacity 0.15s ease-in-out;
-    -moz-transition: opacity 0.15s ease-in-out;
-    -o-transition: opacity 0.15s ease-in-out;
     transition: opacity 0.15s ease-in-out;
     text-decoration: none;
     color: white;
@@ -218,21 +215,23 @@ h1 {
 }
 
 .jumbotron {
-    margin-left: 0px;
+    /*margin-left: 0px;*/
     margin-top: 62px;
     margin-bottom: 16px;
     color: white;
     font-size: 40px;
+    font-size:  2.5rem;
     text-align: center;
-    font-family: 'Gotham Light', sans-serif;
+    font-family: 'Gotham Light', 'Montserrat', Arial, sans-serif;
     font-weight: normal;
 }
 
 .video {
     text-align: center;
     font-size: 15px;
+    font-size: 0.9375rem;
     margin-bottom: 25px;
-    font-family: 'Gotham Book', sans-serif;
+    font-family: 'Gotham Book', 'Montserrat', Arial, sans-serif;
 }
 
 .alt-link--fancy:hover {
@@ -258,7 +257,8 @@ h1 {
 .btn {
     background-color: rgba(0, 0, 0, 0.5);
     font-size: 13px;
-    color: white;
+    font-size: 0.8125rem;
+    color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
@@ -270,19 +270,11 @@ h1 {
     display: inline-block;
     margin-right: 2px;
     margin-left: 1px;
-    font-family: 'Gotham Medium';
+    font-family: 'Gotham Medium','Montserrat', Arial, sans-serif;
 }
 
 .btn:hover {
     border: 1px solid #fff;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-}
-
-.btn:hover {
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
@@ -291,21 +283,28 @@ blockquote {
     right: 40px;
     top: 90px;
     width: 250px;
-    font-size: 95%;
+    font-size: 15px;
+    font-size: 0.9375rem;
     font-style: italic;
     font-family: Georgia, Times, serif;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-weight: 300;
     padding: 10px;
+    line-height: 1.5;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
     color: rgba(88, 88, 88, 0.9);
     /*color: rgba(254,254,244,.77); */
 }
 
+blockquote span {
+    font-style: normal;
+}
+
 blockquote p {
     text-align: right;
-    font-size: 75%;
+    font-size: 11px;
+    font-size: 0.6875rem;
     /*font-family: 'Montserrat', sans-serif;*/
     font-family: "Gotham Bold", sans-serif;
     font-style: normal;
@@ -512,7 +511,7 @@ li.spec-item {
 }
 
 
-.pane-skinny-footer {
+.page-footer {
     background-color: transparent;
     bottom: 0;
     position: absolute;
@@ -561,27 +560,27 @@ footer p {
     line-height: 20px;
 }
 
-.pane-skinny-footer .footer-copy a:first-child,
-.pane-skinny-footer .footer-copy .vertical-separator {
+.page-footer .footer-copy a:first-child,
+.page-footer .footer-copy .vertical-separator {
     /*padding-left: 20px;*/
-    margin-left: 0;
-    border-left: 0;
+    /*margin-left: 0;
+    border-left: 0;*/
 }
 
-.pane-skinny-footer footer .footer-copy a {
+.page-footer footer .footer-copy a {
     color: #ccc;
     text-decoration: none;
     font-family: Arial, sans-serif;
 }
 
-.pane-skinny-footer .footer-copy .vertical-separator {
+.page-footer .footer-copy .vertical-separator {
     padding-left: 0;
     margin-left: 0;
     border-left: 0;
 }
 
-.pane-skinny-footer .footer-copy a:first-child:after,
-.pane-skinny-footer .footer-copy .vertical-separator:after {
+.page-footer .footer-copy a:first-child:after,
+.page-footer .footer-copy .vertical-separator:after {
     padding-left: 15px;
     padding-right: 13px;
     display: inline;
