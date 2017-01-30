@@ -8,17 +8,12 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
-    <!--<link rel="stylesheet" href="./css/normalize.css" />-->
-    <!--<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css">-->
-    <!--<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-min.css">-->
-    <link rel="stylesheet" href="./css/myreset.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <!--<link rel="stylesheet" href="./css/skeleton.css" />-->
-
+    <link rel="stylesheet" href="./myreset.css" />
+    <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
-    <div class="page">
+    <main class="page">
         <div class="content-constraint">
             <div class="container">
                 <div class="row  header">
@@ -50,22 +45,22 @@
 
                         <ol class="menu-list">
                             <li class="menu-item">
-                                <a href="https://www.tesla.com/supercharger" class="nav-link">Charging</a>
+                                <a href="https://www.tesla.com/supercharger">Charging</a>
                             </li>
                             <li class="menu-item">
-                                <a href="https://www.tesla.com/blog" class="nav-link">Updates</a>
+                                <a href="https://www.tesla.com/blog">Updates</a>
                             </li>
                             <li class="menu-item">
-                                <a href="https://www.tesla.com/support" class="nav-link">Support</a>
+                                <a href="https://www.tesla.com/support">Support</a>
                             </li>
                             <li class="menu-item">
-                                <a href="https://www.tesla.com/findus" class="nav-link">Find Us</a>
+                                <a href="https://www.tesla.com/findus">Find Us</a>
                             </li>
                             <li class="menu-item">
-                                <a href="http://shop.teslamotors.com/" target="_blank" class="nav-link">Shop</a>
+                                <a href="http://shop.teslamotors.com/" target="_blank">Shop</a>
                             </li>
                             <li class="menu-item">
-                                <a href="https://www.tesla.com/mytesla" class="nav-link">My Tesla</a>
+                                <a href="https://www.tesla.com/mytesla">My Tesla</a>
                             </li>
                         </ol>
 
@@ -100,8 +95,8 @@
                     </div>
                     <div class="modal-body">
                         <div class="modal-images">
-                            <img class="modal-images--models" src="../images/model-select-models.png" alt="pix of car">
-                            <img class="modal-images--modelx" src="../images/model-select-modelx.png" alt="pix of car">
+                            <img class="modal-images--models" src="./images/model-select-models.png" alt="pix of car">
+                            <img class="modal-images--modelx" src="./images/model-select-modelx.png" alt="pix of car">
                         </div>
                         <div class="modal-text">
                             <div class="modal-text--models">
@@ -154,7 +149,7 @@
             </div>
         </div>
 
-   
+
         <div class="pane-skinny-footer">
             <footer class="main">
                 <div class="container3">
@@ -181,12 +176,13 @@
             </footer>
         </div>
 
-    </div>
+    </main>
 
     <script>
         var modal = document.getElementById('myModal');
         var btn = document.getElementById("mybtn");
         var span = document.getElementsByClassName("modal-content")[0];
+
         btn.onclick = function() {
             modal.style.display = "block";
         }
